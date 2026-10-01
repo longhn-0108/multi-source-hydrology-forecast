@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "multi-source-hydrology-forecast"
+version = "0.1.0"
+description = "Multi-source hydrological data integration and one-day-ahead streamflow forecasting"
+requires-python = ">=3.9"
+
+[tool.setuptools]
+packages = ["src", "src.preprocessing", "src.utils"]

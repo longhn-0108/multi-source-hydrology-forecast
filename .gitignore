@@ -1,0 +1,29 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# Local/raw datasets
+/data/*
+!/data/.gitkeep
+!/data/README.md
+
+# Pipeline outputs and logs
+/output/
+/outputs/*
+!/outputs/.gitkeep
+*.log
+
+# Model checkpoints / generated artifacts
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.nc
+*.nc4
+*.grib
+*.grb
+*.zip
